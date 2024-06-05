@@ -70,7 +70,10 @@ public class MainActivity extends AppCompatActivity {
         GoogleSignInAccount account = null;
         try {
             account = task.getResult(ApiException.class);
-            Toast.makeText(this,"Welcome " + account.getDisplayName(),Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(this,MapActivity.class);
+            intent.putExtra("user",account);
+            startActivity(intent);
+            //Toast.makeText(this,"Welcome " + account.getDisplayName(),Toast.LENGTH_LONG).show();
         } catch (ApiException e) {
 
         }
