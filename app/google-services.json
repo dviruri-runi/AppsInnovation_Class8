@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "681640176133",
+    "project_id": "authentication-7d8a1",
+    "storage_bucket": "authentication-7d8a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681640176133:android:2c5714ade760051db38a6c",
+        "android_client_info": {
+          "package_name": "com.example.authapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjlk1oNVbTgXdPnB4dkKW1KU0uEPgGh84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
